@@ -1,0 +1,10 @@
+<div>
+    <input type="text" placeholder="Filter your to-dos" ng-model="todoFilter">
+    <ol>
+        <li ng-repeat="item in $ctrl.todoList | filter: todoFilter track by $index">{{item}}
+            <a href="">
+                <i class="material-icons">clear</i>
+            </a>
+        </li>
+    </ol>
+</div>

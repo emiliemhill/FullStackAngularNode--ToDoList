@@ -1,0 +1,23 @@
+{
+  "name": "nodelabtwo",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emiliemhill/NodeTwo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/emiliemhill/NodeTwo/issues"
+  },
+  "homepage": "https://github.com/emiliemhill/NodeTwo#readme",
+  "dependencies": {
+    "express": "^4.16.2"
+  }
+}
